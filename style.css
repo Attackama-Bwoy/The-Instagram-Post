@@ -1,0 +1,67 @@
+body {
+    background-color: black;
+
+}
+.post {
+    height: 550px;
+    width: 400px;
+    background-color: white;
+    margin-top: 125px;
+    margin-left: 550px;
+    padding: 0px;
+}
+
+.post .post-header {
+    height: 20px;
+    width: 400px;
+    display: flex;
+    padding: 10px;
+    font-size: 30px;
+}
+.post .post-header .perfil {
+    height: 40px;
+    width: 20px;
+}
+.post .post-header .usuario {
+    height: 100px;
+    width: 20px;
+    font-size: 13px;
+    padding-left: 10px;
+    padding-right: 315px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.post .image {
+    width: 400px;
+    height: 300px;
+    margin: 0px;
+    padding-top: 15px;
+    object-fit: cover;
+}
+
+.post-footer .iconos {
+    height: 20px;
+    width: 380px;
+    font-size: 30px;
+    padding: 10px;
+    display: flex;
+}
+
+.post-footer .iconos .izquierda {
+    padding-right: 235px;
+}
+
+.post-footer .likes {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
+.post-footer .texto {
+    font-family: 'Roboto', sans-serif;
+    padding-top: 0px;
+    padding-left: 10px;
+    font-size: 13px;
+}
+
